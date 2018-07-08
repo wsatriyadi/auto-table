@@ -5,13 +5,10 @@ yahh intinya menampilkan data dengan gampang
 
 cara pake nya tinggal include 'tabel.php' dan panggil class nya seperti dibawah
 
-<?php
-require_once 'tabel.php';
 
-$tabel = new table;
-$tabel->query("select * from tabel_user");
-$tabel->fetch();
-echo $tabel->tampilkan();
-
+$tabel = new table;<br>
+$tabel->query("select * from tabel_user");<br>
+$tabel->fetch();<br>
+echo $tabel->tampilkan();<br>
+<br>
 //print_r($tabel->fetch());
-?>
