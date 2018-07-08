@@ -43,6 +43,7 @@ class table{
 			$rows[] = $row;
 		}
 		$this->data = $rows;
+		return $rows;
 	}
 	
 	private function bikin_head(){
